@@ -13,8 +13,8 @@ function Hero() {
                 type="url"
                 placeholder='Enter URL'
               />
-          <button className='bg-[#00df9a] hover:bg-white text-black rounded-md font-medium w-[200px] ml-4 px-6 py-3'>
-                Check
+          <button className='bg-red-500 hover:font-bold rounded-md font-medium w-[200px] ml-4 px-6 py-3'>
+                CHECK
           </button>
           </div>
       </div>
