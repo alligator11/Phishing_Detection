@@ -22,71 +22,71 @@ function About(){
 
 
         <section className='flex justify-center items-center my-20 py-10'>
-        <div className="px-10">
-            <Popover placement="top-start">
+        <div>
+            <Popover placement="top-end">
                 <PopoverHandler>
-                    <Button className='hover:text-red-800 hover:bg-gray-400 font-bold rounded-md p-4'>User-Friendly Plugin</Button>
+                    <Button className='hover:text-red-500 bg-black font-bold rounded-md p-4'>User-Friendly Plugin . . . . . . . . . . . . </Button>
                 </PopoverHandler>
                 <PopoverContent>
-                <div className="flex items-center bg-gray-900 w-[300px] rounded-md">
-                    <span className="text-white p-2">Begin by installing our user-friendly browser extension, granting you instant access to our powerful cybersecurity suite.</span>
+                <div className="flex items-center bg-gray-300 w-[300px] h-[100px] overflow-auto rounded-sm">
+                    <span className="text-black p-4">Begin by installing our user-friendly browser extension, granting you instant access to our powerful cybersecurity suite.</span>
                 </div>
                 </PopoverContent>
             </Popover><br/><br/><br/>
-            <Popover>
+            <Popover placement="top-end">
                 <PopoverHandler>
-                    <Button className='hover:text-red-800 hover:bg-gray-400 font-bold rounded-md p-4'>Real-Time Website Analysis</Button>
+                    <Button className='hover:text-red-500 bg-black font-bold rounded-md p-4'>Real-Time Website Analysis . . . .</Button>
                 </PopoverHandler>
                 <PopoverContent>
-                <div className="flex items-center bg-gray-900 w-[300px] rounded-md">
-                    <span className="text-white p-2">Whenever you visit a URL, our browser extension swiftly captures it and subjects it to rigorous scrutiny. We employ state-of-the-art Machine Learning models and rule-based algorithms to assess the website's trustworthiness. If it's deemed safe, you continue your online journey without interruptions. However, if a threat is detected, we provide immediate alerts to keep you secure.</span>
+                <div className="flex items-center bg-gray-300 w-[300px] h-[100px] overflow-auto rounded-sm">
+                    <span className="text-black p-4">Whenever you visit a URL, our browser extension swiftly captures it and subjects it to rigorous scrutiny. We employ state-of-the-art Machine Learning models and rule-based algorithms to assess the website's trustworthiness. If it's deemed safe, you continue your online journey without interruptions. However, if a threat is detected, we provide immediate alerts to keep you secure.</span>
                 </div>
                 </PopoverContent>
             </Popover><br/><br/><br/>
-            <Popover>
+            <Popover placement="bottom-end">
                 <PopoverHandler>
-                    <Button className='hover:text-red-800 hover:bg-gray-400 font-bold rounded-md p-4'>Comprehensive Website Insights</Button>
+                    <Button className='hover:text-red-500 bg-black font-bold rounded-md p-4'>Comprehensive Website Insights . . .</Button>
                 </PopoverHandler>
                 <PopoverContent>
-                <div className="flex items-center bg-gray-900 w-[300px] rounded-md">
-                    <span className="text-white p-2">Curious about a website's background? Our extension reveals detailed information about the site, including ownership details from the WHOIS database and technical specifications.</span>
+                <div className="flex items-center bg-gray-300 w-[300px] h-[100px] overflow-auto rounded-sm">
+                    <span className="text-black p-4">Curious about a website's background? Our extension reveals detailed information about the site, including ownership details from the WHOIS database and technical specifications.</span>
                 </div>
                 </PopoverContent>
             </Popover>
         </div>
         <div class="p-10 border-4 border-red-500 rounded-full">
-        <div class="bg-gray-400 py-20 w-52 h-52 rounded-full text-center hover:scale-125 transform transition-transform duration-300 ease-in-out">
+        <div class="bg-gray-300 py-20 w-52 h-52 rounded-full text-center hover:scale-125 transform transition-transform duration-300 ease-in-out">
         <h1 className='md:text-4xl sm:text-2xl text-2xl font-bold text-center text-black'>Features</h1>
         </div>
         </div>
-        <div className="px-10">
-        <Popover>
+        <div>
+        <Popover placement="top-start">
                 <PopoverHandler>
-                    <Button className='hover:text-red-800 hover:bg-gray-400 font-bold rounded-md p-4'>Dedicated Web Portal</Button>
+                    <Button className='hover:text-red-500 bg-black font-bold rounded-md p-4'>. . . . Dedicated Web Portal</Button>
                 </PopoverHandler>
                 <PopoverContent>
-                <div className="flex items-center bg-gray-900 w-[300px] rounded-md">
-                    <span className="text-white p-2">For a deeper dive into website analysis, visit our web portal. Here, you can thoroughly investigate URLs for potential threats using the same AI-driven rule base. Our platform empowers you with an extensive range of insights, ensuring you're well-informed about the websites you interact with.</span>
+                <div className="flex items-center bg-gray-300 w-[300px] h-[100px] overflow-auto rounded-sm">
+                    <span className="text-black p-4">For a deeper dive into website analysis, visit our web portal. Here, you can thoroughly investigate URLs for potential threats using the same AI-driven rule base. Our platform empowers you with an extensive range of insights, ensuring you're well-informed about the websites you interact with.</span>
                 </div>
                 </PopoverContent>
             </Popover><br/><br/><br/>
-            <Popover>
+            <Popover placement="top-start">
                 <PopoverHandler>
-                    <Button className='hover:text-red-800 hover:bg-gray-400 font-bold rounded-md p-4'>Learning Hub</Button>
+                    <Button className='hover:text-red-500 bg-black font-bold rounded-md p-4'>. . . . . . . . . . . Learning Hub</Button>
                 </PopoverHandler>
                 <PopoverContent>
-                <div className="flex items-center bg-gray-900 w-[300px] rounded-md">
-                    <span className="text-white p-2">Knowledge is your best defense. Explore our learning platform to understand website protocols, password security best practices, and how to shield yourself from data breaches.</span>
+                <div className="flex items-center bg-gray-300 w-[300px] h-[100px] overflow-auto rounded-sm">
+                    <span className="text-black p-4">Knowledge is your best defense. Explore our learning platform to understand website protocols, password security best practices, and how to shield yourself from data breaches.</span>
                 </div>
                 </PopoverContent>
             </Popover><br/><br/><br/>
-            <Popover>
+            <Popover placement="bottom-end">
                 <PopoverHandler>
-                    <Button className='hover:text-red-800 hover:bg-gray-400 font-bold rounded-md p-4'>Data Breach Monitoring</Button>
+                    <Button className='hover:text-red-500 bg-black font-bold rounded-md p-4'>. . . Data Breach Monitoring</Button>
                 </PopoverHandler>
                 <PopoverContent>
-                <div className="flex items-center bg-gray-900 w-[300px] rounded-md">
-                    <span className="text-white p-2">Concerned about your online credentials? We integrate with 'Have I Been Pwned' to check if your email address or password has been compromised. Stay informed and take proactive steps to protect your digital identity.</span>
+                <div className="flex items-center bg-gray-300 w-[300px] h-[100px] overflow-auto rounded-sm">
+                    <span className="text-black p-4">Concerned about your online credentials? We integrate with 'Have I Been Pwned' to check if your email address or password has been compromised. Stay informed and take proactive steps to protect your digital identity.</span>
                 </div>
                 </PopoverContent>
             </Popover>

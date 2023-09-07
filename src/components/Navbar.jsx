@@ -11,12 +11,12 @@ function Navbar() {
     }
   return (
     <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
-      <h1 className='w-full text-3xl font-bold text-red-500'>STORAGE.</h1>
+      <h1 className='w-full text-3xl font-bold text-red-500'>PhishDetection.</h1>
       <ul className='hidden md:flex'>
-        <li className='p-4'><Link to="/">Home</Link></li>
-        <li className='p-4'>How</li>
-        <li className='p-4'>Learn</li>
-        <li className='p-4'><Link to="/about">About</Link></li>
+        <li className='p-4 hover:text-red-400'><Link to="/">Home</Link></li>
+        <li className='p-4 hover:text-red-400'>How</li>
+        <li className='p-4 hover:text-red-400'>Learn</li>
+        <li className='p-4 hover:text-red-400'><Link to="/about">About</Link></li>
       </ul>
       <div onClick={handleNav} className='block md:hidden'>
           {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}
