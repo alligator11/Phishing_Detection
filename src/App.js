@@ -12,7 +12,7 @@ function App() {
         <Navbar />
       </nav>
       <Routes>
-        <Route index element={<Hero />} />
+        <Route path='/' element={<Hero />} />
         <Route path="/about" element={<About />} />
       </Routes>
       <footer>
