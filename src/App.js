@@ -8,16 +8,12 @@ import About from "./components/About";
 function App() {
   return (
     <div className="App">
-      <nav>
-        <Navbar />
-      </nav>
+      <Navbar />
       <Routes>
         <Route path='/' element={<Hero />} />
         <Route path="/about" element={<About />} />
       </Routes>
-      <footer>
-        <Footer />
-      </footer>
+      <Footer />
     </div>
   );
 }

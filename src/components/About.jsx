@@ -75,7 +75,7 @@ function About(){
                     <Button className='hover:text-red-500 bg-black font-bold rounded-md p-4'>. . . . . . . . . . . Learning Hub</Button>
                 </PopoverHandler>
                 <PopoverContent>
-                <div className="flex items-center bg-gray-300 w-[300px] h-[200px]rounded-sm">
+                <div className="flex items-center bg-gray-300 w-[300px] h-[200px] rounded-sm">
                     <span className="text-black p-4">Knowledge is your best defense. Explore our learning platform to understand website protocols, password security best practices, and how to shield yourself from data breaches.</span>
                 </div>
                 </PopoverContent>

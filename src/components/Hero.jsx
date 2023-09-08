@@ -4,7 +4,7 @@ function Hero() {
   return (
     <div className='text-white'>
       <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
-        <p className='md:text-5xl sm:text-4xl text-xl font-bold my-6 py-4'>
+        <p className='md:text-5xl sm:text-4xl text-xl text-gray-400 font-bold my-6 py-4'>
             Check URL for phishing.
         </p>
         <div class="flex">
