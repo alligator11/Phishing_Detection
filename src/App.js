@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route path='/' element={<Hero />} />
+        <Route path='/Phishing_Detection' element={<Hero />} />
         <Route path="/about" element={<About />} />
       </Routes>
       <Footer />

@@ -13,7 +13,7 @@ function Navbar() {
     <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
       <h1 className='w-full text-3xl font-bold text-red-500'>PhishDetection.</h1>
       <ul className='hidden md:flex'>
-        <li className='p-4 hover:text-red-400'><Link to="/">Home</Link></li>
+        <li className='p-4 hover:text-red-400'><Link to="/Phishing_Detection">Home</Link></li>
         <li className='p-4 hover:text-red-400'><Link to="/">Pawned</Link></li>
         <li className='p-4 hover:text-red-400'><Link to="/">Learn</Link></li>
         <li className='p-4 hover:text-red-400'><Link to="/about">About</Link></li>
@@ -24,7 +24,7 @@ function Navbar() {
       </div>
       <ul className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%]'}>
         <h1 className='w-full text-3xl font-bold text-red-500 m-4'>PhishDetection.</h1>
-          <li className='p-4 border-b border-gray-600'><Link to="/">Home</Link></li>
+          <li className='p-4 border-b border-gray-600'><Link to="/Phishing_Detection">Home</Link></li>
           <li className='p-4 border-b border-gray-600'><Link to="/">Pawned</Link></li>
           <li className='p-4 border-b border-gray-600'><Link to="/">Learn</Link></li>
           <li className='p-4 border-b border-gray-600'><Link to="/about">About</Link></li>
